@@ -11,6 +11,7 @@ import {
   FaTelegramPlane,
 } from "react-icons/fa";
 import { TbBrandLeetcode, TbBrandLinktree } from "react-icons/tb";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -145,18 +146,18 @@ const Sidebar = () => {
             <FaBehance />
           </a>
           <a
-            href="https://linktr.ee/LakkiAli"
+            href="https://discord.gg/eERs5fcA"
             className="text-gray-300 hover:text-blue-300 transition-colors duration-200 text-2xl"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <TbBrandLinktree />
+            <FaDiscord />
           </a>
         </div>
 
         <div className="mt-4 flex flex-wrap justify-center lg:justify-start space-x-4">
           <a
-            href="#"
+            href="https://www.instagram.com/iam_luckya/"
             className="text-gray-300 hover:text-blue-300 transition-colors duration-200 text-2xl"
           >
             <FaInstagram />
@@ -182,12 +183,12 @@ const Sidebar = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://discord.gg/eERs5fcA"
+            href="https://x.com/Lucky8603249624"
             className="text-gray-300 hover:text-blue-300 transition-colors duration-200 text-2xl"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaDiscord />
+            <FaSquareXTwitter />
           </a>
         </div>
       </div>
