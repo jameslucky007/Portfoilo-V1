@@ -4,6 +4,17 @@ import { FiArrowUpRight, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 /* ---------------- PROJECT DATA ---------------- */
 
 const projects = [
+ /* Ui and ux */
+   {
+    image: "/portfolio.png",
+    title: "MindScript",
+    description:
+      "AI powered text generation platform with real-time responses and user session management.",
+    tags: ["Next JS", "Node", "MongoDB", "Tailwind", "AI"],
+    link: "https://www.behance.net/gallery/250094761/Portfolio",
+    category: "uiux",
+    date: "2025-03",
+  },
   /* PERSONAL */
 
   {
