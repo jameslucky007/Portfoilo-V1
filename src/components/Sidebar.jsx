@@ -122,7 +122,7 @@ const Sidebar = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/jameslucky007"
+            href="https://github.com/James-Lucky"
             className="text-gray-300 hover:text-blue-300 transition-colors duration-200 text-2xl"
             target="_blank"
             rel="noopener noreferrer"
@@ -138,7 +138,7 @@ const Sidebar = () => {
             <TbBrandLeetcode />
           </a>
           <a
-            href="https://www.behance.net/jameslucky"
+            href="https://www.behance.net/lakkiali1"
             className="text-gray-300 hover:text-blue-300 transition-colors duration-200 text-2xl"
             target="_blank"
             rel="noopener noreferrer"

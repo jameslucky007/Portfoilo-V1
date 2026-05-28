@@ -83,3 +83,50 @@ h1, h2, h3 {
   animation: glow-pulse 2s infinite ease-in-out;
   text-shadow: 0 0 15px #60a5fa, 0 0 25px rgba(96, 165, 250, 0.5);
 }
+
+/* ------------ Premium Floating Blobs Animations ------------ */
+
+@keyframes float-slow-1 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+  33% {
+    transform: translate(80px, 60px) scale(1.15) rotate(120deg);
+  }
+  66% {
+    transform: translate(-60px, 100px) scale(0.9) rotate(240deg);
+  }
+}
+
+@keyframes float-slow-2 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translate(-100px, 80px) scale(1.2) rotate(-180deg);
+  }
+}
+
+@keyframes float-slow-3 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1) rotate(0deg);
+  }
+  40% {
+    transform: translate(70px, -90px) scale(0.9) rotate(90deg);
+  }
+  75% {
+    transform: translate(-40px, 50px) scale(1.1) rotate(270deg);
+  }
+}
+
+.animate-float-1 {
+  animation: float-slow-1 25s infinite ease-in-out;
+}
+
+.animate-float-2 {
+  animation: float-slow-2 32s infinite ease-in-out;
+}
+
+.animate-float-3 {
+  animation: float-slow-3 20s infinite ease-in-out;
+}
